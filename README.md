@@ -35,10 +35,20 @@ cp env_template .env
 
 ### 4. How to Run
 
-1. Run the application:
+1. Running the ChatAgent
    ```bash
    export PYTHONPATH=$(pwd):PYTHONPATH
    python chat_agent/app.py
    ```
 
-The app will be running on http://127.0.0.1:7860.
+The app will be running on http://127.0.0.1:7860
+
+2. Running the SoccerStrat ChatAgent
+   ```bash
+   cd strategy_agent/SoccerStrat
+   streamlit run soccer_app.py
+   ```
+
+The app will be running on http://localhost:8501
+
+
