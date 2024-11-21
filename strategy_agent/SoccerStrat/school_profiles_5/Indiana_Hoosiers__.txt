@@ -1,0 +1,14 @@
+- **SCHOOL NAME: **Indiana:****
+  - Strengths:
+    - **Central Dominance**: Indiana effectively utilizes central triangles formed around midfielders, allowing for quick transitions and possession play. This is evidenced by their high possession percentages.
+    - **Interconnections**: Strong connections between key players, especially midfielders, enhance team chemistry and tactical understanding, facilitating effective build-up plays.
+    - **Movement and Fluidity**: Quick transitions from defense to attack enable counterattacks, showcasing their ability to exploit spaces when winning the ball.
+  - Weaknesses:
+    - **Over-reliance on Key Players**: Their strategy becomes vulnerable when key players in midfield are effectively marked or unavailable.
+    - **Predictability**: Frequent central passing can lead to predictability, making it easier for opponents to anticipate their movements.
+    - **Counterattack Vulnerability**: Engaging heavily in upfront pressing can expose them to quick counterattacks if possession is lost in midfield.
+  - Northwestern's Strategy:
+    - **Exploit Predictability**: Northwestern can utilize varied attacking patterns to exploit the predictability in Indiana’s formation, creating opportunities through unexpected wide plays.
+    - **Pressing in Midfield**: Pressing in central areas can capitalize on the over-reliance on key players, forcing turnovers due to their inability to maintain possession under duress.
+    - **Counterattack Focus**: By quickly transitioning from defense to attack after gaining possession, Northwestern can exploit Indiana's vulnerability to counterattacks, especially after they commit players forward.
+  - Recommended Columns: [pass_success_rate, possession, recoveries_per_minute]

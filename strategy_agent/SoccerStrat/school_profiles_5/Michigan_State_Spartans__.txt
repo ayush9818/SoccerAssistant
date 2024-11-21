@@ -1,0 +1,14 @@
+- **SCHOOL NAME: **Michigan State:****
+  - Strengths:
+    - **Possession Retention**: The ability to maintain possession through short passes frustrates opponents and creates opportunities from sustained pressure.
+    - **Central Control**: Dominance in midfield allows them to dictate the pace of the game while limiting opponents’ influence.
+    - **Player Interconnectivity**: Strong links between players enable fluid movement and adaptability in play.
+  - Weaknesses:
+    - **Predictability**: Central passing patterns can become predictable, allowing well-organized defenses to anticipate moves.
+    - **Vulnerability to High Press**: A high opposing press can disrupt their build-up, leading to potential turnovers.
+    - **Limited Width**: A lack of focus on wing play can limit their attacking options and make it easier for opponents to defend against them.
+  - Northwestern's Strategy:
+    - **Encourage Wide Play**: Northwestern can exploit the lack of width by attacking down the flanks and creating overlaps, stretching Michigan State’s defense.
+    - **Utilize Quick Transitions**: By countering quickly after gaining possession, Northwestern can exploit gaps left by Michigan State’s focus on central play.
+    - **Apply High Pressure**: Implementing a high press can force turnovers, taking advantage of Michigan State's susceptibility under pressure.
+  - Recommended Columns: [mean_pass_len, succ_prog_passes_rate, tot_duels_win_rate]

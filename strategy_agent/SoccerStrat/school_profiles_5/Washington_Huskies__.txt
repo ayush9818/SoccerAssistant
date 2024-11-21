@@ -1,0 +1,14 @@
+- **SCHOOL NAME: **Washington:****
+  - Strengths:
+    - **Possession-Based Game**: Controlling game tempo with possession while executing short, quick passes effectively.
+    - **Versatile Attack**: Balance between central and wide play enhances unpredictability and attack options.
+    - **Player Interconnectivity**: Cohesive passing between players facilitates effective movement and circulation.
+  - Weaknesses:
+    - **Predictability**: Overdependence on short passing may allow opponents to anticipate their plays and restrict attacking lanes.
+    - **Difficulties in Final Third**: Struggles in translating possession into meaningful scoring opportunities can be observed.
+    - **Inconsistent Long Passing**: A lack of diversity in passing types limits their attacking arsenal against well-organized defenses.
+  - Northwestern's Strategy:
+    - **Match Their Transition Style**: By maintaining high intensity during transitions and gaining possession, Northwestern can exploit Washington’s vulnerabilities.
+    - **Press Disruptively**: Applying pressure on their key midfielders can disrupt Washington's passing rhythm and transition.
+    - **Focus on Drawing Them Wide**: Utilizing wide areas strategically can balance play from Northwestern, diverting attention from Washington’s central focus.
+  - Recommended Columns: [tot_duels_win_rate, possession, goal_conversion_rate]

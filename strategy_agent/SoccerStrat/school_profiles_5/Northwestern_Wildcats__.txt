@@ -1,0 +1,14 @@
+- **SCHOOL NAME: **Northwestern:****
+  - Strengths:
+    - **Possession Retention**: Proficient in maintaining possession through short, combined passing, particularly in midfield.
+    - **Strong Midfield Dynamics**: Effective interconnected play among midfielders helps create scoring opportunities.
+    - **Adaptable Play**: Capability to switch between passing tactical styles allows them to adjust to opponents' strategies.
+  - Weaknesses:
+    - **Vulnerability to Counterattacks**: Committing players forward for possession often leaves gaps for quick counterattack opportunities.
+    - **Predictability**: Over-reliance on central play can make their attack more predictable, allowing defenses to react effectively.
+    - **Inconsistent Final Third Execution**: Decisive finishings can struggle to keep up with build-up play, leading to missed opportunities.
+  - Northwestern's Strategy:
+    - **Maintain Midfield Control**: Dominating central duels can minimize opposing midfield influence while creating pressure.
+    - **Quick Transition Attacks**: Using fast-paced counterattacking when gaining possession fuels scoring chances while exploiting defensive gaps.
+    - **Vary Offensive Play**: Integrating width into their attacking strategies limits the predictability of Northwestern’s play.
+  - Recommended Columns: [possession, mean_pass_len, tot_duels_win_rate]

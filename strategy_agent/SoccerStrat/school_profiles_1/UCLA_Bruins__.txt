@@ -1,0 +1,16 @@
+- **SCHOOL NAME: **UCLA Bruins:****
+  - Strengths:
+    - **Fluid Movement:** UCLA’s passing network indicates quick interchanges between players, allowing for rapid transitions and attacking opportunities, making them unpredictable.
+    - **Strong Central Play:** A majority of their passes come from the center, highlighting a strong midfield presence to control the game’s tempo.
+    - **Variety of Passing Strategies:** Their ability to mix central and wide play prevents predictability and allows for greater flexibility during matches.
+  - Weaknesses:
+    - **Weakness in Wide Play:** While their center focus is strong, it can become predictable against structured defenses that easily absorb pressure.
+    - **Defensive Transition:** Their fluid attacking play sometimes compromises their defense during quick turnovers, leading to vulnerabilities in the back.
+    - **Reliance on Key Players:** If central playmakers are marked or ineffective, their attack could falter, limiting scoring chances and creativity.
+  - Northwestern's Strategy:
+    - **Exploit Wide Positions:** By focusing plays on wide areas, Northwestern can draw defenders out of the middle, opening up spaces for through-balls into attacking zones.
+    - **Press in the Central Areas:** Target UCLA’s key midfielders with high press to disrupt their fluid passing rhythm and force the ball back to their defense, creating opportunities for quick turnovers.
+    - **Quick Counterattacks:** Use swift transitions after winning possession to catch UCLA off balance, taking advantage of their vulnerabilities in defensive transitions.
+  - Recommended Columns: [succ_lat_passes_rate, recoveries_per_minute, shots_on_target_rate]
+
+---

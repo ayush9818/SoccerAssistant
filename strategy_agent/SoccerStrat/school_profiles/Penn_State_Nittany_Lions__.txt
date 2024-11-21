@@ -1,0 +1,14 @@
+- **SCHOOL NAME: Penn State Nittany Lions****
+  - **Strengths:**
+    - **Possession-Based Strategy:** Their central distribution allows for retention and orchestrating meaningful attacks, aiding in controlling matches.
+    - **Dynamic Movement:** Fluid interchanges contribute to effective offensive strategies, generating multiple angles for attack.
+    - **Effective Short Combinations:** Penn State employs rapid combination plays to create openings against dense defenses, leading to goal-scoring chances.
+  - **Weaknesses:**
+    - **Counterattack Vulnerabilities:** While focusing on possession, they expose themselves to counterattacks, resulting in defensive instability.
+    - **Limited Deep Passing Options:** Their strategy relies heavily on short passing, making it hard to break through well-structured defenses effectively.
+    - **Inconsistent Execution Against Strong Defenses:** Stagnation in offensive patterns on facing organized teams can hinder scoring opportunities.
+  - **Northwestern's Strategy:**
+    - **Disrupt Possession:** Utilize pressing tactics in midfield to stifle Penn State's build-up play and win back possession quickly to leverage counter-attacks.
+    - **Focus on Width:** Stretch their defensive formations to open central channels, capitalizing on bulky midfield play from Penn State.
+    - **Increase Pressure on Transitions:** Take advantage of their transition moments by executing fast breaks, moving with precision to exploit the gaps in the defense.
+  - **Recommended Columns:** [possession, pass_success_rate, tot_duels_win_rate]

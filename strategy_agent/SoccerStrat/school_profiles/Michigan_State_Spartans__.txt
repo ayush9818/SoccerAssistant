@@ -1,0 +1,14 @@
+- **SCHOOL NAME: Michigan State Spartans****
+  - **Strengths:**
+    - **Central Play:** They excel at maintaining control in central areas, which can suffocate opponents and facilitate effective build-up.
+    - **Combination Play:** Their short, quick passing in tight spaces allows for fluid movement and opportunities in packed defenses.
+    - **Building from the Back:** Solid defensive transitions enable them to start attacks cleanly, maintaining structured possession.
+  - **Weaknesses:**
+    - **Narrow Play:** A tendency towards narrow attacking patterns can make them predictable, allowing opponents to set up defensively.
+    - **Transition Vulnerabilities:** They can be caught off-guard during counterattacks, particularly if they over-commit players in the attack.
+    - **Inconsistent Finishing:** While they generate chances, they struggle to convert these effectively, leading to close matches.
+  - **Northwestern's Strategy:**
+    - **Force Wide Play:** Compel Michigan State to widen their play, disengaging central controls and exposing their predictability.
+    - **Capitalize on Transition Opportunities:** Northwestern should look to attack swiftly during transitions, especially if Michigan State pushes players forward.
+    - **Pressing Duels:** Challenge in central dueling areas to exploit any slippage in Michigan State's consistent control, turning possession into shots on goal.
+  - **Recommended Columns:** [tot_duels_win_rate, recovery_per_minute, possession]

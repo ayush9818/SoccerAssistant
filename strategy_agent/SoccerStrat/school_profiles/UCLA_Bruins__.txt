@@ -1,0 +1,14 @@
+- **SCHOOL NAME: UCLA Bruins****
+  - **Strengths:**
+    - **Central Build-up Play:** UCLA's ability to create central passing sequences promotes fluidity, often leading to effective attacks.
+    - **Wing Utilization:** Emphasis on exploiting flank opportunities generates effective crossing scenarios and diversifies attacks.
+    - **Combination Play:** Smart passing and movement allow them to navigate dense defenses and create goal-scoring opportunities.
+  - **Weaknesses:**
+    - **Overreliance on Central Play:** Excessive central focus may allow teams to predict their patterns and set up defensively.
+    - **Defensive Vulnerabilities in Transitions:** Quick turnovers could expose them during counter situations, leading to high-pressure defensive sequences.
+    - **Inconsistent Execution in Final Third:** Opportunities created are not guaranteed, indicating an inefficiency in goal conversion.
+  - **Northwestern's Strategy:**
+    - **Exploit Transition Vulnerabilities:** Capitalize on UCLA's tendency to overcommit in attack by initiating swift counterplays.
+    - **Press High to Intercept:** Utilizing aggressive pressing in midfield can disrupt their build-up, leading to quick recovery chances.
+    - **Focus on Set Pieces:** Given UCLA’s structure, Northwestern can aim for set plays against a team susceptible to organized attack strategies.
+  - **Recommended Columns:** [possession, shot_on_target_rate, total_duels_win_rate]

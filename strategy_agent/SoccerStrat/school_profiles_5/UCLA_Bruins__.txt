@@ -1,0 +1,14 @@
+- **SCHOOL NAME: **UCLA:****
+  - Strengths:
+    - **Central Control**: A strong presence in central midfield allows for maintaining possession and orchestrating plays effectively.
+    - **Short Passing Combinations**: Effective use of short passes helps maintain ball possession and creates scoring opportunities.
+    - **Flank Utilization**: They effectively target the wings, allowing for stretched defenses and opportunities for crosses.
+  - Weaknesses:
+    - **Predictability**: Relying too much on central and lateral passing can become predictable for defenses.
+    - **Vulnerability in Transitions**: The loss of possession can expose them to counterattacks as they commit players forward.
+    - **Limited Long-Range Passing**: A lack of long balls can hinder UCLA's ability to effectively play against organized defenses.
+  - Northwestern's Strategy:
+    - **Exploit Defensive Gaps**: By transitioning quickly to counterattack after regaining possession, Northwestern can target defensive lapses left behind by UCLA's forward players.
+    - **Utilize High Pressing**: Applying pressure during their build-up plays can lead to turnovers and create scoring opportunities for Northwestern.
+    - **Maximize Wing Play**: Engaging in wide plays can disrupt UCLA’s central focus, creating space for effective attacks.
+  - Recommended Columns: [poss_per_minute, pass_success_rate, shots_on_target_rate]

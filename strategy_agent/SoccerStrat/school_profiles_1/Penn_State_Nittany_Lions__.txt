@@ -1,0 +1,16 @@
+- **SCHOOL NAME: **Penn State Nittany Lions:****
+  - Strengths:
+    - **Possession-Based Strategy:** A focus on short passes in the midfield allows Penn State to control the game and create spatial advantages for their attackers.
+    - **Defensive Structure:** Strong compactness in their formation helps limit goal-scoring opportunities for opponents while they transition.
+    - **Quick Transition Capabilities:** The ability to swiftly counterattack can take advantage of disorganized opponents and transitional errors. 
+  - Weaknesses:
+    - **Poor Possession Rates:** Their lower passing completion percentage suggests struggles in building effective plays, risking isolation for their attackers.
+    - **Central Vulnerability:** Despite their defensive capabilities, teams can penetrate central areas where they are less cohesive defensively.
+    - **Predictability in Movement:** Their reliance on central passing can lead to predictability, making it easier for opponents to position themselves defensively.
+  - Northwestern's Strategy:
+    - **Pressing in Central Areas:** By applying consistent pressure to their midfield and forcing turnovers, Northwestern can exploit Penn State’s vulnerability during transitions.
+    - **Wide Play Usage:** Attempt to stretch the Penn State defense with width, thereby creating gaps in their weaker central defensive structures for effective attacking opportunities.
+    - **Exploit Counterattack Opportunities:** After disrupting Penn States' possession, implement a strategy focused on quick counterattacks to exploit their transition weaknesses.
+  - Recommended Columns: [possession, total_duels_win_rate, ppda]
+
+---

@@ -1,0 +1,12 @@
+- **SCHOOL NAME: Northwestern Wildcats****
+  - **Strengths:**
+    - **Ball Retention:** Strong possession-oriented play allows them to control game tempo and reduce counter-attacking situations for the opponent.
+    - **Flexible Formation:** Versatility in shifting formations enables adaptation based on the opponent, increasing tactical advantages during games.
+    - **Effective Pressing:** Their enjoyment in winning duels can lead to effective recoveries and opportunities for resets into attacking maneuvers.
+  - **Weaknesses:**
+    - **Over-reliance on Central Midfielders:** This can lead to congestion and make it easier for compact defenses to deal with their offensive strategies.
+    - **Transition Vulnerabilities:** Susceptibilities during defensive recoveries allow opponents to capitalize on gaps left behind.
+    - **Inconsistent Finishing:** While they can generate opportunities, finishing hasn't been consistent enough to convert those into goals.
+  - **Northwestern's Strategy:**
+    - No explicit strategy, please select another school
+  - **Recommended Columns:** [pass_success_rate, touch_in_box_per_minute, shots_on_target_rate]

@@ -1,0 +1,14 @@
+- **SCHOOL NAME: Washington Huskies****
+  - **Strengths:**
+    - **Short, Interconnected Passes:** Their strategy of quick passing facilitates effective possession retention and game control.
+    - **Wide Play:** Exploiting wide areas can stretch defenses and create space for penetrating runs and crossing opportunities.
+    - **Central Distribution:** Strong use of central players enhances their ability to transition play effectively and efficiently.
+  - **Weaknesses:**
+    - **Predictability:** Reliance on short passes can lead to a lack of surprise in their offenses, making it easier for opponents to defend.
+    - **Vulnerability on Counters:** They can leave gaps when committing too far forward, leaving them exposed to counterattacks.
+    - **Inconsistent Final Ball:** While generating chances, lack of execution in the final ball hampers their scoring rate.
+  - **Northwestern's Strategy:**
+    - **Exploit Gaps on Counterattacks:** Northwestern can pressure Washington, aiming to exploit gaps created during transitions.
+    - **Challenge in Midfield:** By contesting duels in the midfield, Northwestern can inhibit Washington's ability to maintain possession and turn the game.
+    - **Focus on Width:** Stretching out Washington can yield chance openings, as they may struggle against teams exploiting wide positions effectively.
+  - **Recommended Columns:** [tot_duels_win_rate, possession, shots_on_target_rate]

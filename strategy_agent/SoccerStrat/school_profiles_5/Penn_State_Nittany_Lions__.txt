@@ -1,0 +1,14 @@
+- **SCHOOL NAME: **Penn State:****
+  - Strengths:
+    - **Aggressive Attacking Play**: Vertical passing attempts provide penetration into the defensive lines, facilitating forward play.
+    - **Goal-Scoring Opportunities**: Quick ball movement through the midfield leads to better scoring chances around the 18-yard box.
+    - **Strong Midfield Control**: Emphasis on controlling the midfield allows them to dictate pace and develop plays from deeper positions.
+  - Weaknesses:
+    - **Lack of Creativity**: Dependence on central players can lead to stagnation and fewer clear scoring opportunities against tightened defenses.
+    - **Turnover Vulnerabilities**: High rates of ball losses during transitions expose them to opponent counterattacks.
+    - **Predictability**: Their attacking patterns can become predictable, making it easier for the opposing team to defend against them.
+  - Northwestern's Strategy:
+    - **Exploit Turnover Opportunities**: By capitalizing on areas where Penn State may lose possession, Northwestern can generate successful attacks.
+    - **Control the Midfield**: Winning duels in the midfield can limit Penn State's control and disrupt their attacking flow.
+    - **Employ Varied Attacking Techniques**: Using multiple approaches to attack helps break down Penn State’s defensive organization and creates scoring chances.
+  - Recommended Columns: [mean_pass_len, recoveries_per_minute, pass_success_rate]

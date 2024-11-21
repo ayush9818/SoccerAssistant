@@ -1,0 +1,14 @@
+- **SCHOOL NAME: Ohio State Buckeyes****
+  - **Strengths:**
+    - **Dynamic Passing:** Their fast-paced short passes allow them to execute intricate attacks, frequently penetrating defenses.
+    - **Player Interconnectivity:** Cohesive teamwork enables outsized passing and possession retention, complicating defensive matches against them.
+    - **Adaptability:** Ohio State's approach adjusts based on their opponents, utilizing different tactics to break defensive lines effectively.
+  - **Weaknesses:**
+    - **Predictability in Short Passing:** A strong reliance on short passes can lead to predictability, making them vulnerable to intercepts and counter setups.
+    - **Vulnerability to Counterattacks:** Their attack-heavy strategy leaves gaps when transitioning back defensively when on the offensive.
+    - **Inconsistent in Long Passes:** Lack of accuracy in longer balls can turn advantageous situations into wasted opportunities.
+  - **Northwestern's Strategy:**
+    - **Capitalize on Predictability:** By anticipating their short passing plays, Northwestern can intercept and break play to initiate counterattacks effectively.
+    - **Press Aggressively:** By applying pressure in the midfield, Northwestern can force errors from Ohio State and recover quickly for counters.
+    - **Exploit Transition Opportunities:** After forcing mistakes, Northwestern must quickly launch counters to attack the gaps left by Ohio State's aggressive offense.
+  - **Recommended Columns:** [tot_duels_win_rate, recovery_per_minute, mean_pass_len]
