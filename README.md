@@ -17,6 +17,32 @@ SoccerAssistant is a two-system chatbot we created for the Northwestern men's so
 
 ![AgenticWorkflow](assets/agentic_workflow.png)
 
+### **Agentic Workflow Overview**
+
+1. **Soccer Assistant Bot**:
+   - The system represents a multi-agent architecture designed to process user queries in the context of soccer-related data.
+   - It consists of multiple specialized agents, each focused on a specific type of information: 
+     - **Team Agent**: Handles team-related information and statistics.
+     - **Player Agent**: Focuses on player-specific statistics and performance.
+     - **Strategy Agent**: Analyzes game strategies and tactics.
+     - **SQL Analytics Agent**: Processes structured data queries using a Text-to-SQL capability.
+
+2. **Query Handling**:
+   - The user inputs a query into the system.
+   - A central **LLM-based Selector** automatically determines which agents are relevant for the query. It intelligently re-routes the query to one or more agents.
+
+3. **Agent Processing**:
+   - Each agent processes the query independently based on its domain of expertise.
+   - For example:
+     - The Player Agent might fetch player statistics.
+     - The SQL Analytics Agent might retrieve structured data from a database.
+     - The Strategy Agent could analyze tactics or provide insights into game plans.
+
+4. **Response Summarization**:
+   - The outputs from all the agents are merged and summarized into a single cohesive response.
+   - This ensures that the user receives a comprehensive answer to their query, drawing from all relevant domains.
+
+This workflow ensures efficient and accurate handling of diverse soccer-related queries by leveraging the specialized capabilities of each agent. It uses LLM-driven intelligence for routing and summarization, creating an intelligent, user-friendly system.
 
 ## Setup Instructions
 
@@ -27,7 +53,6 @@ Follow these steps to set up and run the SoccerAssistant project:
 git clone https://github.com/ayush9818/SoccerAssistant.git
 cd SoccerAssistant
 ```
-
 
 ### 2. Set Up a Virtual Environment
 **For Linux/Mac:**
