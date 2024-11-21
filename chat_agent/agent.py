@@ -301,7 +301,6 @@ def _run_pipeline(qp, sql_agent, summarizer, query):
         try:
             sql_response = sql_agent.run(query=query)
         except Exception as e:
-            print(e)
             sql_response = ""
         summary = summarizer.get_response(query, [str(sql_response), str(text_response)])
         return summary
@@ -314,8 +313,6 @@ def run_query_pipeline(qp, sql_agent,  summarizer, query, num_retries=4):
         try:
             response = _run_pipeline(qp, sql_agent, summarizer, query)
             return response
-            # response = qp.run(query=query)
-            # return str(response)
         except Exception as e:
             num_retries-=1
     return ""
