@@ -1,0 +1,25 @@
+tools:
+  team:
+    description: Useful for fetching any player information of a team
+    index_path: data/vector_indices/team_index
+    data_path: data/big-ten-team-summary.csv
+    meta_data_keys: 
+      - team
+      - competition
+    corpus_key: Team Summary
+
+  player: 
+    description: Useful for fetching any team and match information
+    index_path: data/vector_indices/player_index
+    data_path: data/big-ten-player-summary.csv
+    meta_data_keys:
+      - player_name
+      - team
+    corpus_key: Player Summary
+  
+  strategy: 
+    description: Useful for answering any strategy related Question
+    index_path: data/vector_indices/strategy_index
+    data_path: data/team-strategy-summary.csv
+    meta_data_keys: []
+    corpus_key: Strategy Summary

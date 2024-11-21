@@ -1,0 +1,8 @@
+llama-index
+llama-index-embeddings-openai
+llama-index-llms-openai
+#pandasai[langchain]
+pydantic==2.8.2
+llama-index-vector-stores-faiss
+faiss
+streamlit
