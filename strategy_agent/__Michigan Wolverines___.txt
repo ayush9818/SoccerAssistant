@@ -1,0 +1,16 @@
+- **SCHOOL NAME: **Michigan Wolverines:****
+  - Strengths:
+    - **Balanced Attack:** Their successful mix of central and wide passes allows them flexibility in creating multiple attacking options, which can confuse opposing defenses and open space for attacks.
+    - **Long Passing Options:** The ability to quickly switch play through long passes creates mismatches and can exploit weak defensive alignments.
+    - **Solid Duels in Midfield:** High success rate in duels, particularly in the central areas, helps them coordinate attacks and regain possession effectively when they lose it.
+  - Weaknesses:
+    - **Disjointed Attacks:** The diversity in their passing can lead to a lack of cohesion, resulting in wasted opportunities if players are not synchronized.
+    - **Transition Vulnerabilities:** A scattergun approach increases risks during transitions, making them vulnerable to counterattacks when they lose possession.
+    - **Weakness in Wide Play:** While balanced, their less pronounced wide play can limit their attack options against well-organized defenses.
+  - Northwestern's Strategy:
+    - **Focus on Midfield Pressing:** Northwestern can disrupt Michigan’s rhythm by applying pressure in central areas, preventing them from forming cohesive attacks or switching effectively.
+    - **Exploit the Transition:** By maintaining a compact defensive shape while allowing Michigan to push up the pitch, Northwestern can quickly transition into counterattacks, leveraging Michigan's defensive gaps.
+    - **Utilize Flanks:** Take advantage of Michigan’s weakness in wide areas by deploying wingers to stretch the field, creating mismatches that can open up scoring opportunities.
+  - Recommended Columns: [tot_duels_win_rate, succ_lat_passes_rate, mean_shot_dist]
+
+---
