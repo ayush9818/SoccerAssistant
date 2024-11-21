@@ -1,5 +1,8 @@
 # SoccerAssistant
 
+## Overview
+
+SoccerAssistant is a two-system chatbot we created for the Northwestern men's soccer team. It is designed to enhance performance both on and off the field. The first system focuses on **competitive strategy**, helping coaches and analysts review opponent tactics, assess strengths and weaknesses, and recommend strategies for upcoming matches. The second system is dedicated to **analytics**, providing detailed insights into player and team performance, aiding in **player evaluation** by tracking key metrics, and helping with **team evaluation** to identify areas for improvement. Together, these systems support the team’s decision-making process, helping the coaching staff make data-driven adjustments to improve both individual and team performance.
 
 ## Setup Instructions
 
