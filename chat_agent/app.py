@@ -10,81 +10,79 @@ from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.llms.openai import OpenAI
 from llama_index.core import Settings
 from llama_index.core.selectors import (
-    PydanticMultiSelector,
+    PydanticMultiSelector,LLMSingleSelector, LLMMultiSelector
 )
-from llama_index.core.retrievers import RouterRetriever
-from llama_index.core.chat_engine import ContextChatEngine
-from llama_index.core.query_engine import RouterQueryEngine
-from llama_index.core import get_response_synthesizer
+from llama_index.core.response_synthesizers import TreeSummarize
 
-from chat_agent.agent import create_agent
+from llama_index.core.prompts.default_prompt_selectors import (
+    DEFAULT_TREE_SUMMARIZE_PROMPT_SEL,
+)
+from llama_index.core.query_pipeline import QueryPipeline
+
+from chat_agent.router import RouterComponent
+from llama_index.core.settings import Settings
+
+from chat_agent.agent import create_agent, create_sql_agent, _run_pipeline
+import gradio as gr
+
 
 load_dotenv()
 
-Settings.llm = OpenAI(model="gpt-4o", temperature=0.5)
+Settings.llm = OpenAI(model="gpt-4o", temperature=0.1)
 Settings.embed_model = OpenAIEmbedding(model="text-embedding-3-large")
 
 CURR_DIR= Path(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_PATH = CURR_DIR / 'config.yaml'
+MAX_RETRIES=4
+
+def generate_output(query):
+    num_retries = MAX_RETRIES
+    while num_retries > 0:
+        try:
+            response = _run_pipeline(qp, sql_agent, summarizer, query)
+            print(response)
+            return response
+        except Exception as e:
+            num_retries-=1
+    return ""
 
 config = yaml.full_load(open(CONFIG_PATH))
 
-if "agents_initialised" not in st.session_state:
-    tools = [create_agent(tool_name, config) for tool_name, config in config['tools'].items()]
-    st.session_state.query_engine = RouterQueryEngine(
-                            selector=PydanticMultiSelector.from_defaults(),
-                            query_engine_tools=tools,)
-    st.session_state.agents_initialised = True 
+doc_agents = [create_agent(tool_name, config) for tool_name, config in config['tools'].items()]
+sql_agent = create_sql_agent(config['sql_agent'])
+choices = [config['description'] for _, config in config['tools'].items()]
+choices = choices
 
+selector = LLMMultiSelector.from_defaults()
 
-st.set_page_config(page_title="SoccerAgent", page_icon="🤖")
-st.title("Soccer Chat Agent")
+router_c = RouterComponent(
+    selector=selector,
+    choices=choices,
+    components=doc_agents,
+    verbose=False
+)   
 
-# Initialize session state for chains and knowledge base
-if "chat_history" not in st.session_state:
-    st.session_state.chat_history = [
-        {"role": "AI", "content": "Hello! I'm your Soccer Assistant. How can I assist you today?"}
-    ]
+qp = QueryPipeline(chain=[router_c], verbose=False)
 
-if "current_response" not in st.session_state:
-    st.session_state.current_response = ""
+summarizer = TreeSummarize(
+    llm=Settings.llm,
+    summary_template=DEFAULT_TREE_SUMMARIZE_PROMPT_SEL,
+)
 
-# Function to handle streaming responses
-def stream_chat_response(query, history=[]):
-    try:
-        streaming_response = st.session_state.query_engine.query(query)
-        if 'response_gen' in streaming_response.__dict__.keys():
-            for token in streaming_response.response_gen:
-                yield token
-        else:
-            yield streaming_response.response
-    except Exception as e:
-        yield f"An error occurred: {str(e)}"
+def chat():
+    print("Chatbot: Hello! I'm your NU Soccer Agent! How can I help you?")
+    while True:
+        # Take user input
+        user_input = input("You: ")
 
-# Display chat history
-for chat in st.session_state.chat_history:
-    with st.chat_message(chat["role"]):
-        st.markdown(chat["content"])
+        # Exit the chat if the user types 'exit' or 'bye'
+        if user_input.lower() in ["exit", "bye"]:
+            print("Chatbot: Goodbye! Have a great day!")
+            break
 
-# User input
-user_query = st.chat_input("Type your message here...")
-if user_query:
-    st.session_state.chat_history.append({"role": "Human", "content": user_query})
+        # Generate and display chatbot response
+        response = generate_output(user_input)
+        print(f"Chatbot: {response}")
 
-    # Display user's message in chat
-    with st.chat_message("Human"):
-        st.markdown(user_query)
-
-    response_container = st.empty() 
-    response_buffer = ""  
-
-    # Stream bot's response
-    with st.spinner("SoccerAgent is processing your query..."):
-        for token in stream_chat_response(user_query, st.session_state.chat_history):
-            if token.strip() == "":
-                continue
-            response_buffer += token
-            response_container.markdown(f"**SoccerAgent:** {response_buffer}")
-
-    # Append the final response to chat history
-    st.session_state.chat_history.append({"role": "AI", "content": response_buffer})
+if __name__ == "__main__":
+    chat()

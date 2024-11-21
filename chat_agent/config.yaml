@@ -29,8 +29,13 @@ tools:
 
 
 sql_agent:
-  tableinfo_dir: 
+  tableinfo_dir: SoccerInfo
   data_paths: 
     - data/big-ten-team-summary.csv
     - data/big-ten-player-summary.csv
+  description: |
+    This agent is designed to handle queries that require interacting with an SQL database to retrieve information and perform statistical analysis.
+    It is specifically optimized for scenarios where data needs to be fetched, processed, and summarized from the database. 
+    The agent ensures efficient querying and computation, making it ideal for generating insights or answering data-driven questions. 
+    It should be utilized exclusively for tasks involving database interactions and statistical calculations.
   
