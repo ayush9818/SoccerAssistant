@@ -40,7 +40,6 @@ def generate_output(query):
     while num_retries > 0:
         try:
             response = _run_pipeline(qp, sql_agent, summarizer, query)
-            print(response)
             return response
         except Exception as e:
             num_retries-=1
@@ -69,20 +68,25 @@ summarizer = TreeSummarize(
     summary_template=DEFAULT_TREE_SUMMARIZE_PROMPT_SEL,
 )
 
-def chat():
-    print("Chatbot: Hello! I'm your NU Soccer Agent! How can I help you?")
-    while True:
-        # Take user input
-        user_input = input("You: ")
+def chat_gen(user_input, history):
+    bot_response = generate_output(user_input)
+    history.append((user_input, bot_response))
+    return bot_response
 
-        # Exit the chat if the user types 'exit' or 'bye'
-        if user_input.lower() in ["exit", "bye"]:
-            print("Chatbot: Goodbye! Have a great day!")
-            break
+WELCOME_MESSAGE = """
+Hello! I'm your NU Soccer AI Assistant! I can assist with tasks like summarizing player performance, drafting team strategies, and highlighting key match insights.
+"""
 
-        # Generate and display chatbot response
-        response = generate_output(user_input)
-        print(f"Chatbot: {response}")
+chatbot = gr.Chatbot(value=[[None, WELCOME_MESSAGE]])
+
+# Create ChatInterface
+demo = gr.ChatInterface(
+    fn=chat_gen,                  
+    chatbot=chatbot,             
+    title="NU Soccer Assistant",  
+    theme=gr.themes.Glass() 
+).queue()
+
 
 if __name__ == "__main__":
-    chat()
+    demo.launch(debug=True, share=True)
