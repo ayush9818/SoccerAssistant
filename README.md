@@ -6,12 +6,12 @@ SoccerAssistant is a two-system chatbot we created for the Northwestern men's so
 
 ## Key Features
 
-- ChatBot UI with 4-agent backend
-- Quickly generate summary statistics, player comparisons, and data visualizations
-- Identifies potential weaknesses in opposing teams for scouting and gameplan purposes
-- Tracks and analyzes player performance metrics (e.g., goals, assists, passing accuracy).
-- Provides data on team performance, including possession, shots on target, and defensive effectiveness.
-- Identifies areas for improvement based on collective team data. 
+- **AI-Powered Chatbot Interface** seamlessly integrates with a dynamic 4-agent backend for real-time data processing.  
+- **Instant Summary Analytics** to generate actionable insights, player comparisons, and interactive visualizations.  
+- **Opponent Scouting Intelligence** leverages predictive analytics to identify weaknesses in opposing teams for strategic game planning.  
+- **Advanced Player Performance Tracking**, including metrics like goals, assists, passing accuracy, and heatmaps for in-depth analysis.  
+- **Comprehensive Team Analytics**, offering insights into possession rates, attacking efficiency, shots on target, and defensive resilience.  
+- **Data-Driven Performance Optimization** through pinpointed areas of improvement using AI-aggregated team statistics.   
 
 ## Agentic Workflow 
 
