@@ -1,6 +1,7 @@
 tools:
   team:
-    description: Useful for fetching any player information of a team
+    description: Provides detailed player-level information, including individual performance metrics and statistics for players competing against various teams. It is ideal for retrieving comprehensive insights about players within a specific team, their matchups, and performance history across games.
+    # Useful for fetching any player information of a team
     index_path: data/vector_indices/team_index
     data_path: data/big-ten-team-summary.csv
     meta_data_keys: 
@@ -9,7 +10,8 @@ tools:
     corpus_key: Team Summary
 
   player: 
-    description: Useful for fetching any team and match information
+    description: Offers comprehensive information on teams and match details, including schedules, results, team statistics, and performance insights. It is ideal for retrieving detailed data about teams, their match histories, and game-specific outcomes
+    # Useful for fetching any team and match information
     index_path: data/vector_indices/player_index
     data_path: data/big-ten-player-summary.csv
     meta_data_keys:
@@ -18,8 +20,17 @@ tools:
     corpus_key: Player Summary
   
   strategy: 
-    description: Useful for answering any strategy related Question
+    description: designed to provide detailed insights and answers to strategy-related questions, offering expert-level analysis, tactical recommendations, and strategic guidance tailored to various scenarios and objectives
+    # Useful for answering any strategy related Question
     index_path: data/vector_indices/strategy_index
     data_path: data/team-strategy-summary.csv
     meta_data_keys: []
     corpus_key: Strategy Summary
+
+
+sql_agent:
+  tableinfo_dir: 
+  data_paths: 
+    - data/big-ten-team-summary.csv
+    - data/big-ten-player-summary.csv
+  

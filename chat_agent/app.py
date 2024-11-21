@@ -25,16 +25,17 @@ Settings.llm = OpenAI(model="gpt-4o", temperature=0.5)
 Settings.embed_model = OpenAIEmbedding(model="text-embedding-3-large")
 
 CURR_DIR= Path(os.path.dirname(os.path.abspath(__file__)))
-print(CURR_DIR)
 CONFIG_PATH = CURR_DIR / 'config.yaml'
 
 config = yaml.full_load(open(CONFIG_PATH))
-tools = [create_agent(tool_name, config) for tool_name, config in config['tools'].items()]
 
-query_engine = RouterQueryEngine(
-    selector=PydanticMultiSelector.from_defaults(),
-    query_engine_tools=tools,
-)
+if "agents_initialised" not in st.session_state:
+    tools = [create_agent(tool_name, config) for tool_name, config in config['tools'].items()]
+    st.session_state.query_engine = RouterQueryEngine(
+                            selector=PydanticMultiSelector.from_defaults(),
+                            query_engine_tools=tools,)
+    st.session_state.agents_initialised = True 
+
 
 st.set_page_config(page_title="SoccerAgent", page_icon="🤖")
 st.title("Soccer Chat Agent")
@@ -42,7 +43,7 @@ st.title("Soccer Chat Agent")
 # Initialize session state for chains and knowledge base
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
-        {"role": "AI", "content": "Hello! I'm your LlamaIndex Assistant. How can I assist you today?"}
+        {"role": "AI", "content": "Hello! I'm your Soccer Assistant. How can I assist you today?"}
     ]
 
 if "current_response" not in st.session_state:
@@ -51,9 +52,12 @@ if "current_response" not in st.session_state:
 # Function to handle streaming responses
 def stream_chat_response(query, history=[]):
     try:
-        streaming_response = query_engine.query(query)
-        for token in streaming_response.response_gen:
-            yield token
+        streaming_response = st.session_state.query_engine.query(query)
+        if 'response_gen' in streaming_response.__dict__.keys():
+            for token in streaming_response.response_gen:
+                yield token
+        else:
+            yield streaming_response.response
     except Exception as e:
         yield f"An error occurred: {str(e)}"
 
@@ -71,8 +75,8 @@ if user_query:
     with st.chat_message("Human"):
         st.markdown(user_query)
 
-    response_container = st.empty()  # Placeholder for the bot's response
-    response_buffer = ""  # Buffer to accumulate the bot's response
+    response_container = st.empty() 
+    response_buffer = ""  
 
     # Stream bot's response
     with st.spinner("SoccerAgent is processing your query..."):
@@ -81,11 +85,6 @@ if user_query:
                 continue
             response_buffer += token
             response_container.markdown(f"**SoccerAgent:** {response_buffer}")
-
-    # Handle unsuccessful retrieval
-    if response_buffer.strip() == "":
-        response_buffer = UNSUCCESSFUL_RETRIEVAL_RESPONSE
-        response_container.markdown(f"**SoccerAgent:** {response_buffer}")
 
     # Append the final response to chat history
     st.session_state.chat_history.append({"role": "AI", "content": response_buffer})
