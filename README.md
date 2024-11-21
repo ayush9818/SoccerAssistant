@@ -104,6 +104,10 @@ The app will be running on http://localhost:8501
 
 This workflow ensures efficient and accurate handling of diverse soccer-related queries by leveraging the specialized capabilities of each agent. It uses LLM-driven intelligence for routing and summarization, creating an intelligent, user-friendly system.
 
+### **Demo**
+![Video Demo](assets/multi-agent-soccer-agent.mp4)
+
+
 ## Contributing
 - Ayush Agarwal
 - Kevin Li
