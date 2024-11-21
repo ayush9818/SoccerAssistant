@@ -1,0 +1,14 @@
+- **SCHOOL NAME: Rutgers Scarlet Knights****
+  - **Strengths:**
+    - **Possession-Based Play:** High ball retention enables them to control game tempo and minimize opposition counterattacks.
+    - **Strong Central Build-Up:** Their effective use of central zones results in maintaining possession, often orchestrating solid build-up plays.
+    - **Tactical Flexibility:** Able to transition between possession-oriented to counter-attacking based on the opposition's strategy.
+  - **Weaknesses:**
+    - **Defensive Vulnerabilities:** A tendency to leave gaps during counter situations can be exploited effectively by quick, incisive attackers.
+    - **Dependence on Key Players:** Over-reliance on specific individuals in the midfield can limit overall team dynamics and effectiveness.
+    - **Inconsistent Finishing Rates:** Although they create chances, their goal conversion can often disappoint, leading to missed golden opportunities.
+  - **Northwestern's Strategy:**
+    - **Exploit Defensive Gaps:** Northwestern should capitalize on potential transitional gaps left in Rutgers' strategy, particularly when they commit forward in attack.
+    - **Press Aggressively:** Create opportunities through high pressing in central areas to force errors and mount quick counter-attacks.
+    - **Leverage Set Pieces:** Given Rutgers' vulnerabilities, set plays would enhance Northwestern's scoring opportunities.
+  - **Recommended Columns:** [pass_success_rate, total_duels_win_rate, shots_on_target_rate]

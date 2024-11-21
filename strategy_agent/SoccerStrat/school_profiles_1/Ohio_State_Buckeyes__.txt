@@ -1,0 +1,16 @@
+- **SCHOOL NAME: **Ohio State Buckeyes:****
+  - Strengths:
+    - **Possession Management:** The Buckeyes demonstrate excellent control of the ball, allowing them to dictate the tempo and flow of the match.
+    - **Diverse Passing Strategies:** Their effective use of both short and longer passes creates multiple formations and variations in play, reducing predictability.
+    - **Strong Midfield Presence:** A solid midfield allows them to maintain possession and execute offensive plays efficiently.
+  - Weaknesses:
+    - **Over-reliance on Short Passing:** Their frequent short passes can become predictable, allowing organized defenses to anticipate and interject plays.
+    - **Vulnerability Against Transitions:** A focus on ball retention can leave them exposed during quick counterattacks from opponents.
+    - **Inconsistent Wide Play:** While they manage possession well, their attacking strategies lack width, making them vulnerable to counter strategies against teams that press effectively.
+  - Northwestern's Strategy:
+    - **High Defensive Line:** Maintain pressure in their midfield to disrupt Ohio State’s rhythm, forcing them to utilize longer plays that increase the likelihood of turnovers.
+    - **Counterattack Utilization:** Exploit gaps left during Ohio State's pushes forward by executing fast break counterattacks aimed at their vulnerable flanks.
+    - **Focus on Width:** Utilize wide players to stretch the Ohio State formation and create 1v1 matchups, allowing for probing plays into their backline.
+  - Recommended Columns: [possessions, pass_success_rate, touch_in_box_per_minute]
+
+---

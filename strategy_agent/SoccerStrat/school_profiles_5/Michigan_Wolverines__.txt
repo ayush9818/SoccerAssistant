@@ -1,0 +1,14 @@
+- **SCHOOL NAME: **Michigan:****
+  - Strengths:
+    - **Possession-Based Play**: A high percentage of short, horizontal passes helps control the game and maintain possession.
+    - **Central Build-Up**: Central areas are crucial for their passing strategy, allowing for deep attacking transitions.
+    - **Effective Wing Utilization**: Connections to the flanks create space and crossing opportunities, strengthening offensive efforts.
+  - Weaknesses:
+    - **Over-Reliance on Key Players**: A dependency on specific players in midfield and the wings can be exposed through effective marking.
+    - **Defensive Vulnerabilities in Transition**: Rapid counterattack scenarios can leave gaps, especially when they lose possession quickly.
+    - **Predictability in Passing Patterns**: Heavy reliance on central play may lead to predictability, making it easier for opponents to thwart their strategies.
+  - Northwestern's Strategy:
+    - **Focus on Pressing Transitions**: By applying pressure in higher zones, Northwestern can capitalize on Michigan's defensive gaps during transitions.
+    - **Utilize Varied Attacks**: Shifting the focus to wide attacking plays can disrupt Michigan’s central strategy and create scoring opportunities.
+    - **Exploit Counterattacks**: Capitalizing on Michigan’s vulnerabilities during defensive transitions can maximize goal-scoring opportunities.
+  - Recommended Columns: [ppda, goal_conversion_rate, mean_shot_dist]

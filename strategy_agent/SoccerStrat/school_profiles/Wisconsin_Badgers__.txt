@@ -1,0 +1,14 @@
+- **SCHOOL NAME: Wisconsin Badgers****
+  - **Strengths:**
+    - **Possession Play:** High completion rates assist overall ball control, enabling sustained pressure on opponents through organized build-up.
+    - **Link-Up Play:** Strong interactions among midfielders and forwards create effective scoring opportunities.
+    - **Adaptability:** Ability to switch tactics based on opponents can often disrupt other teams’ strategies.
+  - **Weaknesses:**
+    - **Vulnerable to Counterattacks:** High engagement in attacking play can leave gaps at the back that sharper attacking teams may exploit.
+    - **Predictability in Attack:** Recognizable patterns in passing can become susceptible to well-prepared opponent structures.
+    - **Overdependence on Key Players:** Rotations can diminish effectiveness against teams that limit influential players through marking.
+  - **Northwestern's Strategy:**
+    - **Exploit Predictable Patterns:** Northwestern can anticipate Wisconsin’s passing tactics to intercept and counter rapidly.
+    - **Pressing Role:** Employing aggressive pressing in midfield areas may force errors that can convert into scoring opportunities.
+    - **Focus on Quick Transitions:** Utilize counterattack strategies to take advantage of gaps left open during Wisconsin’s attacking plays.
+  - **Recommended Columns:** [possession, passes_per_minute, shots_on_target_rate]

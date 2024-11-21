@@ -6,3 +6,4 @@ llama-index-vector-stores-faiss
 faiss-cpu
 gradio
 python-dotenv
+plotly

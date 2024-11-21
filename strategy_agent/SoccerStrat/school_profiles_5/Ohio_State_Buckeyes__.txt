@@ -1,0 +1,14 @@
+- **SCHOOL NAME: **Ohio State:****
+  - Strengths:
+    - **Central Focus**: Emphasis on central midfield play helps maintain possession and facilitates combination plays.
+    - **Dynamic Movement**: Fluid player movement creates openings and makes it difficult for opponents to defend.
+    - **Versatile Attack**: The ability to switch rapidly between central and wide play adds unpredictability to their offense.
+  - Weaknesses:
+    - **Predictability**: Heavy reliance on central combination plays can lead to easier interceptions by well-organized defenses.
+    - **Counterattack Vulnerability**: Aggressive forward play can leave them exposed, particularly if possession is lost in advanced positions.
+    - **Dependence on Key Players**: Team performance can suffer in the absence of key midfielders responsible for creative passing.
+  - Northwestern's Strategy:
+    - **Exploit Counterattack Opportunities**: By transitioning quickly after winning possession, Northwestern can capitalize on gaps in Ohio State's defense.
+    - **Press in Central Areas**: Disrupting their central play will force Ohio State to adjust their strategy, leading to mistakes in passing.
+    - **Focus on Wide Attacks**: Shifting focus to the wings can confuse and unbalance Ohio State’s defensive shape, leveraging gaps in their structure.
+  - Recommended Columns: [possession, succ_fin_third_passes_rate, acc_cross_rate]

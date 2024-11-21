@@ -1,0 +1,16 @@
+- **SCHOOL NAME: **Washington Huskies:****
+  - Strengths:
+    - **Possession-Oriented Play:** Washington excels in maintaining possession through short, rapid passes, allowing them to dictate the match tempo effectively.
+    - **Fluid Midfield Movement:** Their interconnectivity among midfielders facilitates opportunities to quickly switch play and break defensive lines.
+    - **Defensive Solidity Overall:** The ability to maintain a compact defensive formation makes them hard to break down when they lose possession.
+  - Weaknesses:
+    - **Limited Direct Attacks:** Their focus on short, intermingled passing hampers direct attacking opportunities, which could limit effectiveness against well-organized teams.
+    - **Vulnerability to Counterattacks:** Being possession-oriented can leave them exposed to rapid counterattacks if they lose possession deep into the opponent's half.
+    - **Predictability in Build-Up:** The lack of vertical play can make their attacks predictable, reducing the likelihood of surprising defenses.
+  - Northwestern's Strategy:
+    - **Implement a Compact Midfield Press:** By clogging the midfield and preventing Washington from progressing easily, Northwestern can force errors and disrupt their rhythm.
+    - **Exploit Counterattack Opportunities:** After forcing turnovers, transition quickly into counterattacks to exploit Washington's unprotected defense, capitalizing on their tendency to push forward.
+    - **Kill Possession:** By maintaining high defensive energy, Northwestern can limit Washington’s possession and use it to their advantage to create counter-scoring opportunities.
+  - Recommended Columns: [pass_success_rate, recoveries_per_minute, goal_conversion_rate]
+
+---

@@ -1,0 +1,16 @@
+- **SCHOOL NAME: **Indiana Hoosiers:****
+  - Strengths:
+    - **Central Control:** Indiana's focus on passing through the central midfield allows them to maintain possession and control the game's tempo, making it difficult for opponents to win the ball back. This strategy can create gaps in the opposing defense.
+    - **Short Combinations:** Their tendency for quick, short passes enables them to link play effectively, disrupting defensive organization and creating goal-scoring chances during quick exchanges.
+    - **High Duel Win Ratio in Attack:** Indiana shows strength in duels within their attacking third, especially on the right side, where they have a favorable win/loss ratio, aiding in possession retention and penetration.
+  - Weaknesses:
+    - **Limited Width:** By concentrating their play in central areas, they may struggle to stretch defenses, making them vulnerable to teams that can defend compactly.
+    - **Predictability:** Their reliance on central passing patterns can become predictable, allowing opponents to anticipate plays and intercept passes easily.
+    - **Ball Loss Frequency:** High turnover rates, particularly from forward passes in pressured situations, lead to quick counterattacks against them.
+  - Northwestern's Strategy:
+    - **Exploit Width:** Northwestern can expand their play by utilizing the flanks to create space, forcing Indiana’s compact defense to stretch, thus capitalizing on their limited width.
+    - **Press High:** By applying pressure on Indiana’s defensive and midfield players, they can take advantage of their tendency to lose possession and create counterattacking opportunities.
+    - **Target Defensive Third:** Take advantage of Indiana's ball loss tendencies; focus on quick transitions after forcing turnovers to exploit disorganization in Indiana’s defense.
+  - Recommended Columns: [pass_success_rate, possession, shots_on_target_rate]
+
+---

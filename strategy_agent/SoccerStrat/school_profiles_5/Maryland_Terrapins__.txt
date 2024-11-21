@@ -1,0 +1,14 @@
+- **SCHOOL NAME: **Maryland:****
+  - Strengths:
+    - **Possession Play**: Their short, quick passing style allows them to control games effectively and create opportunities through intricate sequences.
+    - **Midfield Connectivity**: Strong links between midfield players help transition effectively between defense and attack.
+    - **Adaptability**: Maryland can adjust their passing strategies based on opponents, demonstrating tactical flexibility in their approach.
+  - Weaknesses:
+    - **Overreliance on Short Passes**: An excessive focus on short passing may inhibit penetration, making it easier for opponents to anticipate plays.
+    - **Defensive Vulnerabilities on Turnovers**: Turnovers from vertical passes expose them to counterattacks, particularly if midfielders are caught high upfield.
+    - **Inconsistent Execution**: Match conditions can lead to varying effectiveness in their passing networks, especially under high pressure.
+  - Northwestern's Strategy:
+    - **Disrupt Passing Flow**: By implementing high pressing, Northwestern can force Maryland into uncharacteristic long passes, capitalizing on their reliance on short passing.
+    - **Exploit Counterattack Opportunities**: Northwestern can counterattack quickly after winning the ball, targeting spaces left open by Maryland’s forwards.
+    - **Control Midfield Battles**: Taking strong positions in midfield duels will limit Maryland's ability to connect through their central players and disrupt their rhythm.
+  - Recommended Columns: [tot_duels_win_rate, pass_success_rate, touches_in_box_per_minute]

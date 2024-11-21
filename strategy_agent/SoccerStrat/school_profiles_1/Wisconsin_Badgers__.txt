@@ -1,0 +1,16 @@
+- **SCHOOL NAME: **Wisconsin Badgers:****
+  - Strengths:
+    - **Possession Management:** Strong in managing the ball allows Wisconsin to wear down opponents and create scoring opportunities through sustained pressure.
+    - **Effective Central Play:** High passing density in the central areas suggests successful build-ups and opportunities for goal scoring.
+    - **Fluid Player Movements:** Interchangeable player roles create dynamic opportunities for passes and can confuse defenses, opening up space.
+  - Weaknesses:
+    - **Overreliance on Central Play:** Heavy reliance on central players makes the team predictable and can be exploited by well-organized defenses.
+    - **Limited Vertical Play:** A focus on lateral passing can miss opportunities for progressive, vertical movement towards goal.
+    - **Vulnerability to Counterattacks:** Ball losses in advanced positions can leave gaps for opponents, exposing the defense.
+  - Northwestern's Strategy:
+    - **Exploit Width:** Utilize wide areas of the field to stretch Wisconsin’s compact midfield, creating openings for penetration through defenders.
+    - **High Pressing:** By implementing a high press, Northwestern can target Wisconsin's possession-based play, aging recoveries of the ball quickly before they settle into their build-up strategies. 
+    - **Capitalize on Turnovers:** Following defensive turnovers, Northwestern should transition quickly to take advantage of Wisconsin's vulnerabilities in defending fast breaks.
+  - Recommended Columns: [mean_shot_dist, recoveries_per_minute, pass_success_rate]
+
+---

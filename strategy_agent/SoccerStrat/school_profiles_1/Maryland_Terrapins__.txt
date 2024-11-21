@@ -1,0 +1,16 @@
+- **SCHOOL NAME: **Maryland Terrapins:****
+  - Strengths:
+    - **Effective Central Play:** Maryland's focus on short, quick passes in central areas allows them to effectively create numerical advantages, leading to penetrative movements toward goal.
+    - **Combination Play:** Their interlinked passing style results in successful moves, often breaking defenses down through cohesion and fluidity.
+    - **Strong Close-Range Shooting:** High scoring probability from shots around the penalty arc indicates an effective attack mechanism close to the goal.
+  - Weaknesses:
+    - **Lack of Width:** A concentration of passing in central areas leaves them vulnerable to teams that can exploit the flanks, limiting their attacking options.
+    - **Defensive Vulnerabilities:** Loss of possession in the center can leave them exposed to quick counterattacks against organized teams.
+    - **Predictability in Build-Up:** Heavy reliance on the central threat can make their attacking play predictable, allowing opponents to better anticipate their moves.
+  - Northwestern's Strategy:
+    - **Broaden the Attack:** Utilizing wide players can stretch Maryland's defense, exploiting their lack of width and creating openings for attacks through the middle.
+    - **High-Pressure System:** Apply intense pressure on their central midfielders especially during build-up to force turnovers, opening up counterattack opportunities.
+    - **Create Quick Transition Opportunities:** Following Maryland's turnovers, transition quickly, forcing their defense to scramble back, capitalizing on their organizational lapses when they lose possession.
+  - Recommended Columns: [possession, ppda, mean_shot_dist]
+
+---

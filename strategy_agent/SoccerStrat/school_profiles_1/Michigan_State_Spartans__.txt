@@ -1,0 +1,16 @@
+- **SCHOOL NAME: **Michigan State Spartans:****
+  - Strengths:
+    - **Possession Retention:** Michigan State’s preference for short to medium passes builds a solid foundation for maintaining possession and controlling the game's tempo.
+    - **Effective Ball Distribution:** Their ability to fluidly progress the ball through the midfield facilitates quick transitions and movements into the attacking third.
+    - **Strong Central Presence:** By focusing on central areas, Michigan State can often dominate possession and create opportunities through tactical build-ups.
+  - Weaknesses:
+    - **Predictability:** Their tendency to rely heavily on central buildup can become predictable, limiting their attacking potential against adaptable defenses.
+    - **Vulnerability to High Press:** If pressed aggressively, their build-up can falter, leading to turnovers in dangerous positions.
+    - **Limited Exploitation of Flanks:** A lack of width can restrict attacking strategies, making them easier to defend against.
+  - Northwestern's Strategy:
+    - **Crowd the Midfield:** By adding more players to the midfield, Northwestern can effectively disrupt Michigan State's flow and prevent them from settling into their rhythm.
+    - **Exploit Wide Spaces:** Utilize wide players to stretch Michigan State's compact midfield and create openings, particularly when they focus too heavily on central play.
+    - **Capitalize on Turnovers:** Focus on quick transitions when Michigan State attempts risky forward attempts, especially when they lose possession in high-pressure areas.
+  - Recommended Columns: [succ_lat_passes_rate, ppda, touches_in_box_per_minute]
+
+---

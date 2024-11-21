@@ -1,0 +1,14 @@
+- **SCHOOL NAME: Maryland Terrapins****
+  - **Strengths:**
+    - **Ball Retention:** High pass accuracy (around 83%) enables them to control matches effectively, avoiding turnovers and maintaining pressure on opponents.
+    - **Diverse Attack Routes:** Versatility in their attacking routes makes them unpredictable, complicating defensive preparation for opponents.
+    - **Midfield Control:** Their strong midfield presence can dominate possession and transition play into attacks quickly and effectively.
+  - **Weaknesses:**
+    - **Defensive Vulnerabilities:** High number of shots faced suggests weaknesses in their defensive organization, leading to opportunities for countering teams.
+    - **Inconsistent Recovery:** A high rate of goals conceded reflects struggles in recovering after losing possession, making them vulnerable during fast transitions.
+    - **Overreliance on Midfield:** Heavy engagement in midfield can leave them vulnerable to quick breakaway counter-attacks.
+  - **Northwestern's Strategy:**
+    - **Exploit Counterattack:** Northwestern should focus on quick transitions after regaining possession to exploit Maryland's vulnerabilities in recovering from counterattacks.
+    - **Press Their Midfield:** By applying pressure to interrupt Maryland's build-up play in midfield, Northwestern can force errors and win possession high up the pitch.
+    - **Utilize Wide Play:** Stretch Maryland’s defense to create openings, targeting their left defensive flank where they exhibit weaknesses.
+  - **Recommended Columns:** [possession, pass_success_rate, shots_on_target_rate]

@@ -1,0 +1,16 @@
+- **SCHOOL NAME: **Rutgers Scarlet Knights:****
+  - Strengths:
+    - **Possession Retention:** The focus on short and horizontal passing enables effective possession management while building plays from the back.
+    - **Central Play:** Strong central passing combinations allow for a cohesive threat to penetrate defenses when working in concert with their striker.
+    - **Effective in Quick Build-Up:** They can create rapid transitions when moving forward, which can destabilize defensive setups.
+  - Weaknesses:
+    - **Predictability:** Heavy reliance on short passes can become predictable, allowing well-prepared opponents to defend easily.
+    - **Limited Expansion:** Fewer attempts to exploit wide areas make their attacking play less effective against compact defenses.
+    - **Unforced Errors:** Frequent ball losses, especially in midfield, indicate a struggle when transitioning from defense into attack.
+  - Northwestern's Strategy:
+    - **Exploit Width:** By employing wide play, Northwestern can pull Rutgers' defense out of shape, opening up space in central areas for penetrating passes.
+    - **Pressuring Transitions:** Apply pressure in midfield to force Rutgers into hurried decisions, creating opportunities for counterattacks from turnovers.
+    - **Increase Duel Intensity:** Focus on winning duels in key areas to regain possession quickly and disrupt their build-up play, targeting their vulnerability in midfield.
+  - Recommended Columns: [pass_success_rate, total_duels_win_rate, recoveries_per_minute]
+
+---

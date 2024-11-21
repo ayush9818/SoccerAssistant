@@ -1,0 +1,14 @@
+- **SCHOOL NAME: Michigan Wolverines****
+  - **Strengths:**
+    - **Short Passing & Combination Play:** Their quick, short passing strategies create effective movements in tight conditions, often leading to scoring opportunities in quick succession.
+    - **Strong Ball Retention:** They can wear down defenses with their possession, controlling the pace and flow of the game.
+    - **Dynamic Movement:** Off-the-ball movement creates multiple passing lanes and options, disrupting organized defenses.
+  - **Weaknesses:**
+    - **Vulnerability to Counterattacks:** While focusing on possession, they can become susceptible to quick counters once possessions are lost.
+    - **Overpassing:** They occasionally hesitate to take shots, looking for the perfect opportunity, which can lead to losing fluidity and potential scoring chances.
+    - **Defensive Gaps:** Heavy attacking emphasis can leave spaces in midfield that clever counter-attacks can exploit.
+  - **Northwestern's Strategy:**
+    - **Exploit Counterattacking Opportunities:** Northwestern can focus on counter-attacks swiftly after they regain possession to catch Michigan vulnerable after they commit forward.
+    - **Press in Central Areas:** By maintaining pressure in the midfield, Northwestern can disrupt Michigan’s passing and create opportunities for turnovers that can lead to quick goals.
+    - **Cut Off Passing Lanes:** Focus on closing down spaces during buildup, which can reduce Michigan's ability to retain possession effectively.
+  - **Recommended Columns:** [tot_duels_win_rate, recovery_per_minute, pass_success_rate]

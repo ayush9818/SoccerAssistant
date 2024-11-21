@@ -1,0 +1,14 @@
+- **SCHOOL NAME: **Wisconsin:****
+  - Strengths:
+    - **Central Dominance**: Focus on central midfielders provides effective ball control and distribution.
+    - **Versatile Passing**: Ability to engage in both short passes and longer balls provides attacking versatility.
+    - **Strong Building Phase**: Their buildup through defenders allows for organized possession and methodical attacking.
+  - Weaknesses:
+    - **Predictability in Play**: Heavy reliance on similar passing routes can lead to easier defensive setups against them.
+    - **Transition Vulnerabilities**: Quick counterattacks by opponents can expose defensive gaps due to their focus on buildup.
+    - **Limited Use of Width**: Not maximizing the width in their play can make it easier for oppositions to defend against them.
+  - Northwestern's Strategy:
+    - **Exploit Wide Areas**: Northwestern can engage in wide-focused attacking strategies to spread Wisconsin’s defense thin.
+    - **Utilize Quick Transitions**: By employing rapid counterattacks after winning the ball back, Northwestern can exploit lapses in Wisconsin’s defensive transitions.
+    - **Trigger High-Pressure Scenarios**: Engaging in high-pressure scenes can force Wisconsin to alter their predictable plays, leading to turnovers.
+  - Recommended Columns: [mean_pass_len, recoveries_per_minute, total_duels_win_rate]

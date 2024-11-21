@@ -1,0 +1,14 @@
+- **SCHOOL NAME: **Rutgers:****
+  - Strengths:
+    - **Possession Control**: Strong emphasis on short, quick passing combinations helps maintain possession and dictate the tempo.
+    - **Effective Midfield Dynamics**: The midfield often plays a critical role in transitioning between defense and attack, facilitating combinations.
+    - **Player Movement**: Off-the-ball movement allows players to receive balls in advantageous positions, destabilizing defenses.
+  - Weaknesses:
+    - **Vulnerability to Counterattacks**: Focusing heavily on possession can leave gaps for quick attacks from opponents, particularly if possession is lost.
+    - **Predictability in Patterns**: Over-reliance on central passing can be anticipated, making it easier for opponents to position themselves to intercept.
+    - **Limited Long Balls**: A lack of long pass attempts can hinder their ability to exploit defensive weaknesses, especially against deep formations.
+  - Northwestern's Strategy:
+    - **Exploit Counterattacks**: By forcing turnovers and quickly transitioning, Northwestern can capitalize on vulnerabilities within Rutgers' formation.
+    - **Utilize Width to Break Through**: Focusing on wide plays can exploit the predictability of Rutgers' passing patterns, creating mismatches in the defense.
+    - **Pressuring for Turnovers**: By engaging Rutgers effectively in the midfield, Northwestern can force turnovers that can lead directly to scoring chances.
+  - Recommended Columns: [pass_success_rate, recoveries_per_minute, mean_shot_dist]

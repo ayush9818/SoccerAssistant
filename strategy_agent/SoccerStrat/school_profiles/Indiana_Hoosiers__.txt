@@ -1,0 +1,14 @@
+- **SCHOOL NAME: Indiana Hoosiers****
+  - **Strengths:**
+    - **Central Playmaking:** Indiana excels at building play centrally, with players like #22 facilitating significant pass distribution (48% of passes directed centrally). This can destabilize opponents by dominating possession.
+    - **Possession Focus:** Their possession-oriented strategy translates into controlled gameplay, allowing for quick rotations and adaptation in attack, which can frustrate teams that rely on counter-attacking.
+    - **Adaptability:** They demonstrate versatility in attack, switching between central and wide passing, which can threaten defenses with different approaches.
+  - **Weaknesses:**
+    - **Over-Reliance on Key Players:** Significant dependence on central players leaves them vulnerable if marked out, resulting in reduced offensive effectiveness.
+    - **Transition Vulnerabilities:** When pushing for quick attacks, they struggle with defensive organization, often exposed to counterattacks and conceding scoring chances.
+    - **Defensive Gaps:** Pressing high for attacking threats can compromise their defensive solidity, especially in tight matches.
+  - **Northwestern's Strategy:**
+    - **Exploit Transition Vulnerabilities:** Northwestern can capitalize on Indiana’s slow recovery during transitions by launching quick counterattacks whenever they regain possession.
+    - **Utilize Wing Play:** By stretching Indiana’s defense wide and creating overloads on the flanks, Northwestern can exploit the left-side weaknesses observed, providing opportunities for crosses into the box.
+    - **Press High, Win Duels:** Utilize Northwestern's strong midfield presence to press high against Indiana, forcing them into risky passing situations where they may turn over possession.
+  - **Recommended Columns:** [possession, pass_success_rate, tot_duels_win_rate]
