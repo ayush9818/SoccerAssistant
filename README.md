@@ -13,6 +13,11 @@ SoccerAssistant is a two-system chatbot we created for the Northwestern men's so
 - Provides data on team performance, including possession, shots on target, and defensive effectiveness.
 - Identifies areas for improvement based on collective team data. 
 
+## Agentic Workflow 
+
+![AgenticWorkflow](assets/agentic_workflow.png)
+
+
 ## Setup Instructions
 
 Follow these steps to set up and run the SoccerAssistant project:

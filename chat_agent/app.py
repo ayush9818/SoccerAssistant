@@ -3,7 +3,6 @@ warnings.filterwarnings('ignore')
 
 import yaml 
 import os 
-import streamlit as st
 from pathlib import Path 
 from dotenv import load_dotenv
 from llama_index.embeddings.openai import OpenAIEmbedding
